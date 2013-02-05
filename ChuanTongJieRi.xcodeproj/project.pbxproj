@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E39F590F165914D000693B15 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39F590E165914D000693B15 /* EventKitUI.framework */; };
+		E3A573091660502E004105ED /* ZWODatePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A573081660502E004105ED /* ZWODatePageController.m */; };
+		E3A73344166ACFBE001479D1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A73343166ACFBE001479D1 /* CFNetwork.framework */; };
+		E3A73347166AD943001479D1 /* screenshot3-568.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A73345166AD943001479D1 /* screenshot3-568.png */; };
+		E3A73348166AD943001479D1 /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A73346166AD943001479D1 /* screenshot3.png */; };
+		E3A7A3611660B1C400BBB357 /* FXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A7A3601660B1C400BBB357 /* FXLabel.m */; };
+		E3A7D0031645F22B00148DF5 /* ZWOholiday.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A7D0021645F22B00148DF5 /* ZWOholiday.m */; };
+		E3A7D0191646140000148DF5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A7D018164613FF00148DF5 /* libsqlite3.dylib */; };
+		E3AB703B1644FEC500C167D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AB703A1644FEC500C167D9 /* UIKit.framework */; };
+		E3AB703D1644FEC500C167D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AB703C1644FEC500C167D9 /* Foundation.framework */; };
+		E3AB703F1644FEC500C167D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AB703E1644FEC500C167D9 /* CoreGraphics.framework */; };
+		E3AB70451644FEC500C167D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3AB70431644FEC500C167D9 /* InfoPlist.strings */; };
+		E3AB70471644FEC500C167D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AB70461644FEC500C167D9 /* main.m */; };
+		E3AB704B1644FEC500C167D9 /* ZWOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AB704A1644FEC500C167D9 /* ZWOAppDelegate.m */; };
+		E3AB705B164507E800C167D9 /* Kal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3AB705A164507E800C167D9 /* Kal.bundle */; };
+		E3AB705E1645096300C167D9 /* libKal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AB7059164506AF00C167D9 /* libKal.a */; };
+		E3AB70611645194E00C167D9 /* HolidaySqliteDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AB70601645194E00C167D9 /* HolidaySqliteDataSource.m */; };
+		E3ACB19B16455051001DC911 /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3ACB19116455051001DC911 /* ChineseCalendarDB.cpp */; };
+		E3ACB19C16455051001DC911 /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3ACB19316455051001DC911 /* ChineseDate.cpp */; };
+		E3ACB19D16455051001DC911 /* IDJCalendarUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3ACB19616455051001DC911 /* IDJCalendarUtil.mm */; };
+		E3ACB19E16455051001DC911 /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3ACB19716455051001DC911 /* SolarDate.cpp */; };
+		E3ACB19F16455051001DC911 /* ZWOChineseCalendarUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ACB19A16455051001DC911 /* ZWOChineseCalendarUtility.m */; };
+		E3B725F0166A446400F10F16 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B725EF166A446400F10F16 /* icon.png */; };
+		E3B725F2166A446900F10F16 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B725F1166A446900F10F16 /* icon@2x.png */; };
+		E3B9C5B516576CBF00710CC7 /* ZWOSearchPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B9C5B316576CBF00710CC7 /* ZWOSearchPageController.m */; };
+		E3B9C5B616576CBF00710CC7 /* ZWOSearchPageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B9C5B416576CBF00710CC7 /* ZWOSearchPageController.xib */; };
+		E3BBB1531669B9730044F1E4 /* screenshot0-568.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBB14A1669B9730044F1E4 /* screenshot0-568.png */; };
+		E3BBB1541669B9730044F1E4 /* screenshot0.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBB14B1669B9730044F1E4 /* screenshot0.png */; };
+		E3BBB1551669B9730044F1E4 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBB14C1669B9730044F1E4 /* screenshot1.png */; };
+		E3BBB1561669B9730044F1E4 /* screenshot1-568.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBB14D1669B9730044F1E4 /* screenshot1-568.png */; };
+		E3BBB1571669B9730044F1E4 /* screenshot2-568.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBB14E1669B9730044F1E4 /* screenshot2-568.png */; };
+		E3BBB1581669B9730044F1E4 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBB14F1669B9730044F1E4 /* screenshot2.png */; };
+		E3BBB15A1669B9C10044F1E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBB1591669B9C10044F1E4 /* Default.png */; };
+		E3BBB15C1669B9C60044F1E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBB15B1669B9C60044F1E4 /* Default@2x.png */; };
+		E3BBB15D1669B9DA0044F1E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E320C597164DDC8A0054FEEA /* Default-568h@2x.png */; };
+		E3CA30A3166832DF00890871 /* buttonBulb1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CA30A1166832DF00890871 /* buttonBulb1.png */; };
+		E3CA30A4166832DF00890871 /* buttonClock1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CA30A2166832DF00890871 /* buttonClock1.png */; };
+		E3CA30A51668335400890871 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39F590C16590C6800693B15 /* EventKit.framework */; };
+		E3D07315165FB87200BB0558 /* buttonBulb2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D0730B165FB87200BB0558 /* buttonBulb2.png */; };
+		E3D07317165FB87200BB0558 /* buttonClock2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D0730D165FB87200BB0558 /* buttonClock2.png */; };
+		E3D07318165FB87200BB0558 /* buttonSearchPress.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D0730E165FB87200BB0558 /* buttonSearchPress.png */; };
+		E3D07319165FB87200BB0558 /* buttonSearchPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D0730F165FB87200BB0558 /* buttonSearchPress@2x.png */; };
+		E3D0731A165FB87200BB0558 /* buttonSearchRegular.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D07310165FB87200BB0558 /* buttonSearchRegular.png */; };
+		E3D0731B165FB87200BB0558 /* buttonSearchRegular@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D07311165FB87200BB0558 /* buttonSearchRegular@2x.png */; };
+		E3D0731C165FB87200BB0558 /* taskBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D07312165FB87200BB0558 /* taskBackground.png */; };
+		E3D0731D165FB87200BB0558 /* taskBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D07313165FB87200BB0558 /* taskBackground@2x.png */; };
+		E3D4347B16688FFB000B846A /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E3D4347A16688FFB000B846A /* database.sqlite */; };
+		E3D43480166891A7000B846A /* AppiraterLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3D43482166891A7000B846A /* AppiraterLocalizable.strings */; };
+		E3D5BECC1667914300A6D075 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D5BEC71667914300A6D075 /* Appirater.m */; };
+		E3D5BECD1667914300A6D075 /* UIImage+SplitImageIntoTwoParts.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D5BEC91667914300A6D075 /* UIImage+SplitImageIntoTwoParts.m */; };
+		E3D5BECE1667914300A6D075 /* ZWOGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D5BECB1667914300A6D075 /* ZWOGuideView.m */; };
+		E3D5BED01667918000A6D075 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D5BECF1667918000A6D075 /* QuartzCore.framework */; };
+		E3D5BED2166791A200A6D075 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D5BED1166791A200A6D075 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3AB7058164506AF00C167D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3AB7051164506AF00C167D9 /* Kal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = Kal;
+		};
+		E3AB705C1645095A00C167D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3AB7051164506AF00C167D9 /* Kal.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = Kal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E320C597164DDC8A0054FEEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E39F590C16590C6800693B15 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		E39F590E165914D000693B15 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		E3A573071660502E004105ED /* ZWODatePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWODatePageController.h; sourceTree = "<group>"; };
+		E3A573081660502E004105ED /* ZWODatePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWODatePageController.m; sourceTree = "<group>"; };
+		E3A73343166ACFBE001479D1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E3A73345166AD943001479D1 /* screenshot3-568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot3-568.png"; sourceTree = "<group>"; };
+		E3A73346166AD943001479D1 /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
+		E3A7A35F1660B1C400BBB357 /* FXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXLabel.h; sourceTree = "<group>"; };
+		E3A7A3601660B1C400BBB357 /* FXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXLabel.m; sourceTree = "<group>"; };
+		E3A7D0011645F22B00148DF5 /* ZWOholiday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWOholiday.h; sourceTree = "<group>"; };
+		E3A7D0021645F22B00148DF5 /* ZWOholiday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWOholiday.m; sourceTree = "<group>"; };
+		E3A7D018164613FF00148DF5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		E3AB70361644FEC500C167D9 /* ChuanTongJieRi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuanTongJieRi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AB703A1644FEC500C167D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3AB703C1644FEC500C167D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3AB703E1644FEC500C167D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3AB70421644FEC500C167D9 /* ChuanTongJieRi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChuanTongJieRi-Info.plist"; sourceTree = "<group>"; };
+		E3AB70441644FEC500C167D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3AB70461644FEC500C167D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3AB70481644FEC500C167D9 /* ChuanTongJieRi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChuanTongJieRi-Prefix.pch"; sourceTree = "<group>"; };
+		E3AB70491644FEC500C167D9 /* ZWOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWOAppDelegate.h; sourceTree = "<group>"; };
+		E3AB704A1644FEC500C167D9 /* ZWOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWOAppDelegate.m; sourceTree = "<group>"; };
+		E3AB7051164506AF00C167D9 /* Kal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kal.xcodeproj; path = ../../lib/KalCalendar/Kal.xcodeproj; sourceTree = "<group>"; };
+		E3AB705A164507E800C167D9 /* Kal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Kal.bundle; path = ../../lib/KalCalendar/Kal.bundle; sourceTree = "<group>"; };
+		E3AB705F1645194E00C167D9 /* HolidaySqliteDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolidaySqliteDataSource.h; sourceTree = "<group>"; };
+		E3AB70601645194E00C167D9 /* HolidaySqliteDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HolidaySqliteDataSource.m; sourceTree = "<group>"; };
+		E3ACB19116455051001DC911 /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseCalendarDB.cpp; sourceTree = "<group>"; };
+		E3ACB19216455051001DC911 /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarDB.h; sourceTree = "<group>"; };
+		E3ACB19316455051001DC911 /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseDate.cpp; sourceTree = "<group>"; };
+		E3ACB19416455051001DC911 /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseDate.h; sourceTree = "<group>"; };
+		E3ACB19516455051001DC911 /* IDJCalendarUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJCalendarUtil.h; sourceTree = "<group>"; };
+		E3ACB19616455051001DC911 /* IDJCalendarUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IDJCalendarUtil.mm; sourceTree = "<group>"; };
+		E3ACB19716455051001DC911 /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarDate.cpp; sourceTree = "<group>"; };
+		E3ACB19816455051001DC911 /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarDate.h; sourceTree = "<group>"; };
+		E3ACB19916455051001DC911 /* ZWOChineseCalendarUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWOChineseCalendarUtility.h; sourceTree = "<group>"; };
+		E3ACB19A16455051001DC911 /* ZWOChineseCalendarUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWOChineseCalendarUtility.m; sourceTree = "<group>"; };
+		E3B725EF166A446400F10F16 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E3B725F1166A446900F10F16 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		E3B9C5B216576CBF00710CC7 /* ZWOSearchPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWOSearchPageController.h; sourceTree = "<group>"; };
+		E3B9C5B316576CBF00710CC7 /* ZWOSearchPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWOSearchPageController.m; sourceTree = "<group>"; };
+		E3B9C5B416576CBF00710CC7 /* ZWOSearchPageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWOSearchPageController.xib; sourceTree = "<group>"; };
+		E3BBB14A1669B9730044F1E4 /* screenshot0-568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot0-568.png"; sourceTree = "<group>"; };
+		E3BBB14B1669B9730044F1E4 /* screenshot0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot0.png; sourceTree = "<group>"; };
+		E3BBB14C1669B9730044F1E4 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		E3BBB14D1669B9730044F1E4 /* screenshot1-568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot1-568.png"; sourceTree = "<group>"; };
+		E3BBB14E1669B9730044F1E4 /* screenshot2-568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot2-568.png"; sourceTree = "<group>"; };
+		E3BBB14F1669B9730044F1E4 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		E3BBB1591669B9C10044F1E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E3BBB15B1669B9C60044F1E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E3CA30A1166832DF00890871 /* buttonBulb1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBulb1.png; sourceTree = "<group>"; };
+		E3CA30A2166832DF00890871 /* buttonClock1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonClock1.png; sourceTree = "<group>"; };
+		E3D0730B165FB87200BB0558 /* buttonBulb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBulb2.png; sourceTree = "<group>"; };
+		E3D0730D165FB87200BB0558 /* buttonClock2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonClock2.png; sourceTree = "<group>"; };
+		E3D0730E165FB87200BB0558 /* buttonSearchPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonSearchPress.png; sourceTree = "<group>"; };
+		E3D0730F165FB87200BB0558 /* buttonSearchPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonSearchPress@2x.png"; sourceTree = "<group>"; };
+		E3D07310165FB87200BB0558 /* buttonSearchRegular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonSearchRegular.png; sourceTree = "<group>"; };
+		E3D07311165FB87200BB0558 /* buttonSearchRegular@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonSearchRegular@2x.png"; sourceTree = "<group>"; };
+		E3D07312165FB87200BB0558 /* taskBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taskBackground.png; sourceTree = "<group>"; };
+		E3D07313165FB87200BB0558 /* taskBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taskBackground@2x.png"; sourceTree = "<group>"; };
+		E3D4347A16688FFB000B846A /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite; sourceTree = "<group>"; };
+		E3D4347C16689008000B846A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E3D4347D16689010000B846A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E3D43481166891A7000B846A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/AppiraterLocalizable.strings"; sourceTree = "<group>"; };
+		E3D43483166891AA000B846A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
+		E3D43484166891AF000B846A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AppiraterLocalizable.strings"; sourceTree = "<group>"; };
+		E3D5BEC61667914300A6D075 /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
+		E3D5BEC71667914300A6D075 /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
+		E3D5BEC81667914300A6D075 /* UIImage+SplitImageIntoTwoParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SplitImageIntoTwoParts.h"; sourceTree = "<group>"; };
+		E3D5BEC91667914300A6D075 /* UIImage+SplitImageIntoTwoParts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SplitImageIntoTwoParts.m"; sourceTree = "<group>"; };
+		E3D5BECA1667914300A6D075 /* ZWOGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWOGuideView.h; sourceTree = "<group>"; };
+		E3D5BECB1667914300A6D075 /* ZWOGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWOGuideView.m; sourceTree = "<group>"; };
+		E3D5BECF1667918000A6D075 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E3D5BED1166791A200A6D075 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3AB70331644FEC500C167D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A73344166ACFBE001479D1 /* CFNetwork.framework in Frameworks */,
+				E3CA30A51668335400890871 /* EventKit.framework in Frameworks */,
+				E3D5BED2166791A200A6D075 /* SystemConfiguration.framework in Frameworks */,
+				E3D5BED01667918000A6D075 /* QuartzCore.framework in Frameworks */,
+				E39F590F165914D000693B15 /* EventKitUI.framework in Frameworks */,
+				E3A7D0191646140000148DF5 /* libsqlite3.dylib in Frameworks */,
+				E3AB705E1645096300C167D9 /* libKal.a in Frameworks */,
+				E3AB703B1644FEC500C167D9 /* UIKit.framework in Frameworks */,
+				E3AB703D1644FEC500C167D9 /* Foundation.framework in Frameworks */,
+				E3AB703F1644FEC500C167D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E39F697516570C6100050DDC /* img */ = {
+			isa = PBXGroup;
+			children = (
+				E3A73345166AD943001479D1 /* screenshot3-568.png */,
+				E3A73346166AD943001479D1 /* screenshot3.png */,
+				E3BBB14A1669B9730044F1E4 /* screenshot0-568.png */,
+				E3BBB14B1669B9730044F1E4 /* screenshot0.png */,
+				E3BBB14C1669B9730044F1E4 /* screenshot1.png */,
+				E3BBB14D1669B9730044F1E4 /* screenshot1-568.png */,
+				E3BBB14E1669B9730044F1E4 /* screenshot2-568.png */,
+				E3BBB14F1669B9730044F1E4 /* screenshot2.png */,
+				E3CA30A1166832DF00890871 /* buttonBulb1.png */,
+				E3CA30A2166832DF00890871 /* buttonClock1.png */,
+				E3D0730B165FB87200BB0558 /* buttonBulb2.png */,
+				E3D0730D165FB87200BB0558 /* buttonClock2.png */,
+				E3D0730E165FB87200BB0558 /* buttonSearchPress.png */,
+				E3D0730F165FB87200BB0558 /* buttonSearchPress@2x.png */,
+				E3D07310165FB87200BB0558 /* buttonSearchRegular.png */,
+				E3D07311165FB87200BB0558 /* buttonSearchRegular@2x.png */,
+				E3D07312165FB87200BB0558 /* taskBackground.png */,
+				E3D07313165FB87200BB0558 /* taskBackground@2x.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		E3A7A35E1660B1C400BBB357 /* FXLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E3A7A35F1660B1C400BBB357 /* FXLabel.h */,
+				E3A7A3601660B1C400BBB357 /* FXLabel.m */,
+			);
+			path = FXLabel;
+			sourceTree = "<group>";
+		};
+		E3AB702B1644FEC500C167D9 = {
+			isa = PBXGroup;
+			children = (
+				E3A73343166ACFBE001479D1 /* CFNetwork.framework */,
+				E3B725F1166A446900F10F16 /* icon@2x.png */,
+				E3B725EF166A446400F10F16 /* icon.png */,
+				E3BBB15B1669B9C60044F1E4 /* Default@2x.png */,
+				E3BBB1591669B9C10044F1E4 /* Default.png */,
+				E3D5BED1166791A200A6D075 /* SystemConfiguration.framework */,
+				E3D5BECF1667918000A6D075 /* QuartzCore.framework */,
+				E39F590E165914D000693B15 /* EventKitUI.framework */,
+				E39F590C16590C6800693B15 /* EventKit.framework */,
+				E320C597164DDC8A0054FEEA /* Default-568h@2x.png */,
+				E3A7D018164613FF00148DF5 /* libsqlite3.dylib */,
+				E3AB705A164507E800C167D9 /* Kal.bundle */,
+				E3AB7051164506AF00C167D9 /* Kal.xcodeproj */,
+				E3AB70401644FEC500C167D9 /* ChuanTongJieRi */,
+				E3AB70391644FEC500C167D9 /* Frameworks */,
+				E3AB70371644FEC500C167D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3AB70371644FEC500C167D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3AB70361644FEC500C167D9 /* ChuanTongJieRi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3AB70391644FEC500C167D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3AB703A1644FEC500C167D9 /* UIKit.framework */,
+				E3AB703C1644FEC500C167D9 /* Foundation.framework */,
+				E3AB703E1644FEC500C167D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3AB70401644FEC500C167D9 /* ChuanTongJieRi */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4347A16688FFB000B846A /* database.sqlite */,
+				E3D5BEC51667914300A6D075 /* UIclasses */,
+				E3A7A35E1660B1C400BBB357 /* FXLabel */,
+				E39F697516570C6100050DDC /* img */,
+				E3ACB19016455051001DC911 /* solar_chinese_calendar */,
+				E3AB705F1645194E00C167D9 /* HolidaySqliteDataSource.h */,
+				E3AB70601645194E00C167D9 /* HolidaySqliteDataSource.m */,
+				E3A573071660502E004105ED /* ZWODatePageController.h */,
+				E3A573081660502E004105ED /* ZWODatePageController.m */,
+				E3AB70491644FEC500C167D9 /* ZWOAppDelegate.h */,
+				E3AB704A1644FEC500C167D9 /* ZWOAppDelegate.m */,
+				E3B9C5B216576CBF00710CC7 /* ZWOSearchPageController.h */,
+				E3B9C5B316576CBF00710CC7 /* ZWOSearchPageController.m */,
+				E3B9C5B416576CBF00710CC7 /* ZWOSearchPageController.xib */,
+				E3AB70411644FEC500C167D9 /* Supporting Files */,
+			);
+			path = ChuanTongJieRi;
+			sourceTree = "<group>";
+		};
+		E3AB70411644FEC500C167D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3AB70421644FEC500C167D9 /* ChuanTongJieRi-Info.plist */,
+				E3AB70431644FEC500C167D9 /* InfoPlist.strings */,
+				E3D43482166891A7000B846A /* AppiraterLocalizable.strings */,
+				E3AB70461644FEC500C167D9 /* main.m */,
+				E3AB70481644FEC500C167D9 /* ChuanTongJieRi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3AB7052164506AF00C167D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3AB7059164506AF00C167D9 /* libKal.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3ACB19016455051001DC911 /* solar_chinese_calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACB19116455051001DC911 /* ChineseCalendarDB.cpp */,
+				E3ACB19216455051001DC911 /* ChineseCalendarDB.h */,
+				E3ACB19316455051001DC911 /* ChineseDate.cpp */,
+				E3ACB19416455051001DC911 /* ChineseDate.h */,
+				E3ACB19516455051001DC911 /* IDJCalendarUtil.h */,
+				E3ACB19616455051001DC911 /* IDJCalendarUtil.mm */,
+				E3ACB19716455051001DC911 /* SolarDate.cpp */,
+				E3ACB19816455051001DC911 /* SolarDate.h */,
+				E3ACB19916455051001DC911 /* ZWOChineseCalendarUtility.h */,
+				E3A7D0011645F22B00148DF5 /* ZWOholiday.h */,
+				E3A7D0021645F22B00148DF5 /* ZWOholiday.m */,
+				E3ACB19A16455051001DC911 /* ZWOChineseCalendarUtility.m */,
+			);
+			path = solar_chinese_calendar;
+			sourceTree = "<group>";
+		};
+		E3D5BEC51667914300A6D075 /* UIclasses */ = {
+			isa = PBXGroup;
+			children = (
+				E3D5BEC61667914300A6D075 /* Appirater.h */,
+				E3D5BEC71667914300A6D075 /* Appirater.m */,
+				E3D5BEC81667914300A6D075 /* UIImage+SplitImageIntoTwoParts.h */,
+				E3D5BEC91667914300A6D075 /* UIImage+SplitImageIntoTwoParts.m */,
+				E3D5BECA1667914300A6D075 /* ZWOGuideView.h */,
+				E3D5BECB1667914300A6D075 /* ZWOGuideView.m */,
+			);
+			path = UIclasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3AB70351644FEC500C167D9 /* ChuanTongJieRi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3AB704E1644FEC500C167D9 /* Build configuration list for PBXNativeTarget "ChuanTongJieRi" */;
+			buildPhases = (
+				E3AB70321644FEC500C167D9 /* Sources */,
+				E3AB70331644FEC500C167D9 /* Frameworks */,
+				E3AB70341644FEC500C167D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3AB705D1645095A00C167D9 /* PBXTargetDependency */,
+			);
+			name = ChuanTongJieRi;
+			productName = ChuanTongJieRi;
+			productReference = E3AB70361644FEC500C167D9 /* ChuanTongJieRi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3AB702D1644FEC500C167D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = UNSW;
+			};
+			buildConfigurationList = E3AB70301644FEC500C167D9 /* Build configuration list for PBXProject "ChuanTongJieRi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = E3AB702B1644FEC500C167D9;
+			productRefGroup = E3AB70371644FEC500C167D9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E3AB7052164506AF00C167D9 /* Products */;
+					ProjectRef = E3AB7051164506AF00C167D9 /* Kal.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E3AB70351644FEC500C167D9 /* ChuanTongJieRi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E3AB7059164506AF00C167D9 /* libKal.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKal.a;
+			remoteRef = E3AB7058164506AF00C167D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3AB70341644FEC500C167D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AB70451644FEC500C167D9 /* InfoPlist.strings in Resources */,
+				E3AB705B164507E800C167D9 /* Kal.bundle in Resources */,
+				E3B9C5B616576CBF00710CC7 /* ZWOSearchPageController.xib in Resources */,
+				E3D07315165FB87200BB0558 /* buttonBulb2.png in Resources */,
+				E3D07317165FB87200BB0558 /* buttonClock2.png in Resources */,
+				E3D07318165FB87200BB0558 /* buttonSearchPress.png in Resources */,
+				E3D07319165FB87200BB0558 /* buttonSearchPress@2x.png in Resources */,
+				E3D0731A165FB87200BB0558 /* buttonSearchRegular.png in Resources */,
+				E3D0731B165FB87200BB0558 /* buttonSearchRegular@2x.png in Resources */,
+				E3D0731C165FB87200BB0558 /* taskBackground.png in Resources */,
+				E3D0731D165FB87200BB0558 /* taskBackground@2x.png in Resources */,
+				E3CA30A3166832DF00890871 /* buttonBulb1.png in Resources */,
+				E3CA30A4166832DF00890871 /* buttonClock1.png in Resources */,
+				E3D4347B16688FFB000B846A /* database.sqlite in Resources */,
+				E3D43480166891A7000B846A /* AppiraterLocalizable.strings in Resources */,
+				E3BBB1531669B9730044F1E4 /* screenshot0-568.png in Resources */,
+				E3BBB1541669B9730044F1E4 /* screenshot0.png in Resources */,
+				E3BBB1551669B9730044F1E4 /* screenshot1.png in Resources */,
+				E3BBB1561669B9730044F1E4 /* screenshot1-568.png in Resources */,
+				E3BBB1571669B9730044F1E4 /* screenshot2-568.png in Resources */,
+				E3BBB1581669B9730044F1E4 /* screenshot2.png in Resources */,
+				E3BBB15A1669B9C10044F1E4 /* Default.png in Resources */,
+				E3BBB15C1669B9C60044F1E4 /* Default@2x.png in Resources */,
+				E3BBB15D1669B9DA0044F1E4 /* Default-568h@2x.png in Resources */,
+				E3B725F0166A446400F10F16 /* icon.png in Resources */,
+				E3B725F2166A446900F10F16 /* icon@2x.png in Resources */,
+				E3A73347166AD943001479D1 /* screenshot3-568.png in Resources */,
+				E3A73348166AD943001479D1 /* screenshot3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3AB70321644FEC500C167D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AB70471644FEC500C167D9 /* main.m in Sources */,
+				E3AB704B1644FEC500C167D9 /* ZWOAppDelegate.m in Sources */,
+				E3AB70611645194E00C167D9 /* HolidaySqliteDataSource.m in Sources */,
+				E3ACB19B16455051001DC911 /* ChineseCalendarDB.cpp in Sources */,
+				E3ACB19C16455051001DC911 /* ChineseDate.cpp in Sources */,
+				E3ACB19D16455051001DC911 /* IDJCalendarUtil.mm in Sources */,
+				E3ACB19E16455051001DC911 /* SolarDate.cpp in Sources */,
+				E3ACB19F16455051001DC911 /* ZWOChineseCalendarUtility.m in Sources */,
+				E3A7D0031645F22B00148DF5 /* ZWOholiday.m in Sources */,
+				E3B9C5B516576CBF00710CC7 /* ZWOSearchPageController.m in Sources */,
+				E3A573091660502E004105ED /* ZWODatePageController.m in Sources */,
+				E3A7A3611660B1C400BBB357 /* FXLabel.m in Sources */,
+				E3D5BECC1667914300A6D075 /* Appirater.m in Sources */,
+				E3D5BECD1667914300A6D075 /* UIImage+SplitImageIntoTwoParts.m in Sources */,
+				E3D5BECE1667914300A6D075 /* ZWOGuideView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3AB705D1645095A00C167D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kal;
+			targetProxy = E3AB705C1645095A00C167D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3AB70431644FEC500C167D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3AB70441644FEC500C167D9 /* en */,
+				E3D4347C16689008000B846A /* zh-Hans */,
+				E3D4347D16689010000B846A /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3D43482166891A7000B846A /* AppiraterLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D43481166891A7000B846A /* zh-Hans */,
+				E3D43483166891AA000B846A /* en */,
+				E3D43484166891AF000B846A /* zh-Hant */,
+			);
+			name = AppiraterLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3AB704C1644FEC500C167D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "传统节日日历";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E3AB704D1644FEC500C167D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "传统节日日历";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3AB704F1644FEC500C167D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChuanTongJieRi/ChuanTongJieRi-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../../lib/KalCalendar/;
+				INFOPLIST_FILE = "ChuanTongJieRi/ChuanTongJieRi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3AB70501644FEC500C167D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: WEIOU ZHOU";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChuanTongJieRi/ChuanTongJieRi-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../../lib/KalCalendar/;
+				INFOPLIST_FILE = "ChuanTongJieRi/ChuanTongJieRi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6E888281-4135-4191-895F-242F0341C8E9";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3AB70301644FEC500C167D9 /* Build configuration list for PBXProject "ChuanTongJieRi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AB704C1644FEC500C167D9 /* Debug */,
+				E3AB704D1644FEC500C167D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3AB704E1644FEC500C167D9 /* Build configuration list for PBXNativeTarget "ChuanTongJieRi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AB704F1644FEC500C167D9 /* Debug */,
+				E3AB70501644FEC500C167D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3AB702D1644FEC500C167D9 /* Project object */;
+}

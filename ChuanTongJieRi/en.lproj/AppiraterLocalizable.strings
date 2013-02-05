@@ -1,0 +1,11 @@
+/* 
+  AppiraterLocalizable.strings
+  ChuanTongJieRi
+
+  Created by Zhou Weiou on 12-11-30.
+  Copyright (c) 2012年 UNSW. All rights reserved.
+*/
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!";
+"Rate %@" = "Rate %@";
+"No, Thanks" = "No, Thanks";
+"Remind me later" = "Remind me later";
